@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | TIDC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- fav icon CSS -->
+    <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+
+
+    <script src="https://kit.fontawesome.com/4ebe883bff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="search-form" action="" id="search-form">
+        <form>
+            <i class="fa-solid fa-magnifying-glass manuicon text-search-icon"></i>
+            <input type="text" placeholder="Search here.......">
+            <input type="submit" value="Submit" onclick="searchfunctionclose()">
+            <i onclick="searchfunctionclose()" class="fa-solid fa-xmark"></i>
+        </form>
+    </div>
+
+    <div class="screen-reader-mobile">
+        <div class="header">
+            <div class="item item-1" onclick="decrease()">
+                <p>
+                    -A
+                </p>
+            </div>
+            <div class="item item-2" onclick="initial()">
+                <p>
+                    A
+                </p>
+            </div>
+            <div class="item item-3" onclick="increase()">
+                <p>
+                    +A
+                </p>
+            </div>
+        </div>
+        <div class="body">
+            <ul>
+                <li class="item">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="text">
+                        <p>Search</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="text">
+                        <p>Select Language</p>
+                    </div>
+                    <div class="drop">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </li>
+                <li class="item">
+                    <button class="btn-white" onclick="lightFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-grey" onclick="grayFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-blue" onclick="blueFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-black" onclick="darkFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="text">
+                        <p>Screen Reader Accress</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="item br">
+                <div class="icons">
+                    <div class="img fb">
+                        <img src="icons/fb.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="icons/twitter.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">Skip</div>
+        </div>
+    </div>
+    <div class="mySidePanel">
+        <div class="nav">
+            <div class="img1"></div>
+            <div class="img" onclick="closePanel()">
+                <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+            </div>
+        </div>
+        <div class="body">
+            <div class="heading">
+                <p>MENU</p>
+            </div>
+            <div class="sub-head">
+                <a href="index.html">
+                    <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                </a>
+            </div>
+            <ul>
+                <li onclick="openSec1()">
+                    <div class="text">
+                        <p>About Us</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec1">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec1()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>About Us</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="mission-vision.html">Mission & Vision</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="joint-venture.html">Joint Venture</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="bord-of-directors.html">Board of Directors</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="other-links.html">Other Links</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="faqs.html">FAQs</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec1()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec2()">
+                    <div class="text">
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec2">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec2()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Projects</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="new-projects.html#complete_project">Complete Projects</a>
+
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="new-projects.html#ongoing_project">Ongoing Projects</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec2()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec3()">
+                    <div class="text">
+                        <p>Services</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec3">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec3()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Services</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#financial-ass">Financial Assistance</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#food-testing">Food Testing Laboratory</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#infra-dev">Infrastructure Development</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec3()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec4()">
+                    <div class="text">
+                        <p>Investors</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec4">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec4()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <a href="investor.html">Investors</a>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="all-events.html">Our Events</a>
+
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#ind-pol-inc">Industrial policies and Incentives</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#land-bank">Land Bank</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#investor-query"> Investor Query </a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec4()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec5()">
+                    <div class="text">
+                        <p>Industrial Infrastructure</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec5">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec5()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Industrial Infrastructure</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#allot-rate">Allotment</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#facilities">Facilities</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#engg-cell">Engineering Cell</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#inds-park">Industrial Park </a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec5()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec6()">
+                    <div class="text">
+                        <p>Sectors</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec6">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec6()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Sectors</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="sectors.html#potential-sec">Potential sectors</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="sectors.html#thrust-sec">Thrust sectors</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec6()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div class="text">
+                        <a href="gallery.html">
+                            Galleries
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+
+                <li onclick="openSec7()">
+                    <div class="text">
+                        <p>Policies</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec7">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec7()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Policies</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#trp-ind-policy">Tripura Industrial Policy</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#neeip">NEEIP- 2007 (Revised)</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#tiipis">Tripura Industrial Investment Promotion
+                                                Scheme,2017</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#ots-policy">One Time Settlement for loan</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#investor-query-policy">Investor Query Policy</a>
+                                        </div>
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec7()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec8()">
+                    <div class="text">
+                        <p>Documents</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec8">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec8()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Documents</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#achievements">Achievements</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#notification">Notification</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#rti">RTI</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#recruitments">Recruitments</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#tender">Tender</a>
+                                        </div>
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec8()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div class="text">
+                        <a href="who-is-who.html">
+                            Who is who
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <a href="contact-us.html">
+                            Contact Us
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="screen-reader-mobile-bg" onclick="show_screen_reader()"></div>
+    <header>
+        <div class="top-header" id="top">
+            <div class="full-container">
+                <div class="top-header-grid">
+                    <div class="top-left">
+                        <a href="screen-reader-access.html">Screen Reader Access</a>
+                        <button onclick="searchfunction()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                    </div>
+
+                    <div class="top-right">
+                        <div class="skip-to-main">
+                            <a href="#main-content">Skip to main content</a>
+                        </div>
+                        <div class="text-size">
+                            <button onclick="increase()">A <span>+</span></button>
+                            <button onclick="initial()">A</button>
+                            <button onclick="decrease()">A <span>-</span></button>
+                        </div>
+                        <div class="language-trn">
+                            <div id="google_translate_element"></div>
+                        </div>
+                        <div class="social-head">
+                            <a href="https://www.facebook.com/tidcltd" target="_blank"><img src="icons/fb.png"
+                                    alt=""></a>
+                            <a href="#"><img src="icons/twitter.png" alt=""></a>
+                        </div>
+                        <div class="switch-color">
+                            <button class="btn-white" onclick="lightFunction()"><i
+                                    class="fa-solid fa-bars"></i></button>
+                            <button class="btn-grey" onclick="grayFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-blue" onclick="blueFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-black" onclick="darkFunction()"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header" id="main-header">
+            <div class="full-container">
+                <div class="main-header-grid">
+                    <div class="logo">
+                        <a href="index.html">
+                            <div class="logo-icon">
+                                <img src="logo/logo.png" alt="">
+                            </div>
+                            <div class="logo-text">
+                                <h1>Tripura Industrial Development Corporation Ltd.</h1>
+                                <h2>Department of Industries & Commerce</h2>
+                                <h3>Government of Tripura Undertaking, ISO 9001 : 2015 Certified Company</h3>
+                            </div>
+                        </a>
+                        <div class="logo-text-mobile">
+                            <div class="text">
+                                <h1>TIDC</h1>
+                                <div>
+                                    <p>Department of </p>
+                                    <p>Industries & Commerce</p>
+                                </div>
+                            </div>
+                            <div class="sidebar-icon-mobile">
+                                <div class="icon" onclick="show_screen_reader()">
+                                    <img src="icons/a.png" alt="">
+                                </div>
+                                <div class="img" onclick="mySidePanel()">
+                                    <img src="icons/Group 181.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-right-logo">
+                        <a href="https://www.g20.org/en/" target="_blank">
+                            <img src="logo/g20-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="navbar" id="navbar">
+            <div class="full-container">
+                <ul class="main-menu">
+                    <a href="index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn">About Us <span><i class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="mission-vision.html">Mission & Vision</a>
+                            <a href="joint-venture.html">Joint Venture</a>
+                            <a href="bord-of-directors.html">Board of Directors</a>
+                            <a href="other-links.html">Other Links</a>
+                            <a href="faqs.html">FAQs</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="new-projects.html">Projects</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="new-projects.html#complete_project">Complete Projects</a>
+                            <a href="new-projects.html#ongoing_project">Ongoing Projects</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="services.html">Services</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="services.html#financial-ass">Financial Assistance</a>
+                            <a href="services.html#food-testing">Food Testing Laboratory</a>
+                            <a href="services.html#infra-dev">Infrastructure Development</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="investor.html">Investors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="all-events.html">Our Events</a>
+                            <a href="investor.html#ind-pol-inc">Industrial policies and Incentives</a>
+                            <a href="investor.html#land-bank">Land Bank</a>
+                            <a href="investor.html#investor-query"> Investor Query </a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="industrial-infrastructure.html">Industrial Infr </a><span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="industrial-infrastructure.html#allot-rate">Allotment </a>
+                            <a href="industrial-infrastructure.html#facilities">Facilities</a>
+                            <a href="industrial-infrastructure.html#engg-cell">Engineering Cell</a>
+                            <a href="industrial-infrastructure.html#inds-park">Industrial Park </a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="sectors.html">Sectors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="sectors.html#potential-sec">Potential sectors</a>
+                            <a href="sectors.html#thrust-sec">Thrust sectors</a>
+                        </div>
+                    </li>
+                    <a href="gallery.html">
+                        <li>Galleries</li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="policies.html">Policies</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="policies.html#trp-ind-policy">Tripura Industrial Policy</a>
+                            <a href="policies.html#neeip">NEEIP- 2007 (Revised)</a>
+                            <a href="policies.html#tiipis">Tripura Industrial Investment Promotion Incentive
+                                Scheme,2022</a>
+                            <a href="policies.html#swp">Sector Wise Policy</a>
+
+                            <a href="policies.html#land-allot-policy">Land Allotment Policy</a>
+                        </div>
+
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="documents.html">Documents</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="documents.html#achievements">Achievements</a>
+                            <a href="documents.html#notification">Notification</a>
+                            <a href="documents.html#rti">RTI</a>
+                            <a href="documents.html#recruitments">Recruitments</a>
+                            <a href="documents.html#tender">Tender</a>
+                        </div>
+                    </li>
+                    <a href="who-is-who.html">
+                        <li>Who is who</li>
+                    </a>
+                    <a href="contact-us.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-----------------------------------   page Title  section  ------------------------------------------->
+    <section>
+        <div class="page-title-sec">
+            <div class="page-title">
+                <h1>Projects</h1>
+                <p id="main-content"><a href="index.html">Home</a> <span><i class="fa-solid fa-angles-right"></i></span>
+                    Projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------------   page content  section  ------------------------------------------->
+    <section class="table-page-sec">
+        <div class="full-container">
+
+            <div class="my-table">
+                <h2><span>Completed Projects</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h6>Border Haat at Kamalasagar</h6>
+                                <p>
+                                    Boarder Haat at Kamalasagar at zero line between Bangladesh & India. The project is
+                                    covered with an area of 75 m x 75 m.
+                                    land. In this covered area 50% land of Bangladesh & 50% land of India. This is
+                                    weekly Market having 27 stalls for India
+                                    & 27 stalls for Bangladesh. The construction executed by TIDC & expenditure involved
+                                    `2.44 crores.
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="bamboo-park.html"><button>View</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6>Border Haat at Srinagar South Tripura District</h6>
+                                <p>
+                                    Boarder Haat Srinagar Sabroom situated at zero line between Bangladesh & India. The
+                                    project area covered by 75 m x 75 m.
+                                    In this covered area 50% land of Bangladesh & 50% land of India. This is weekly
+                                    Market having 27 stalls for India & 27
+                                    stalls for Bangladesh. The construction executed by TIDC incurring expenditure `2.44
+                                    crores.
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="bamboo-park.html"><button>View</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Land Custom Station at Srimantapur.<span>Rs.16.00 crores</span></h4>
+                                <p>
+                                    Srimantapur Land Custom Station at present is handling both Cargo and Passenger. The
+                                    strategic advantage of this station is that the nearest city in Bangladesh from
+                                    Srimantapur Land Custom Station is Comilla and having distance of just 12 KM.
+                                    Important road of Bangladesh namely “Viswa Road” passing through Comilla & it is
+                                    connected Chitagang Port & Dhaka which gives national access to important city and
+                                    port in Bangladesh from Srimantapur Land Custom Station. Additional land near the
+                                    Srimantapur Land Custom Station is available, so expansion is feasible at the Custom
+                                    Station. LCS Srimantapur is already becoming a major transit point for cement,
+                                    plastics, stone aggregates, food grains etc. Physical status of both Bangladesh &
+                                    India is very cordial to promote, Textile and other national products.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Dukli Industrial Area<span>Rs.15.00 crores</span></h4>
+                                <p>
+                                    Dukli Industrial area was established initially 37.17 acres of land but
+                                    subsequently, Industrial areas has been increased to 43.69 acres. The project was
+                                    taking for up-gradation of Road, Water Supply, Power Sub-station development of
+                                    land, plots 10 nos. sheds constructed, compound wall with well protection for the
+                                    growth of healthy industries. A good no. Industrial units have been manufacturing
+                                    pipes, bulbs, glass, metal etc. Besides, there is a puffed rice processing industry
+                                    there.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>International Fairground at Hapania <span>Package – I, Phase -
+                                        I</span><span>Rs.38.61 crores</span></h4>
+                                <p>
+                                    The International Fairground has been developed for holding different exhibition to
+                                    exhibit local products of the State. Keeping this in view an exhibition centre at
+                                    Hapania has also been established with a view to seek potential investors and
+                                    business personnel for the project considering its economic and social cultural
+                                    impact. In this idea a stage for cultural aspects has been provided. Tripura Haat
+                                    provides about 25 stalls, one Restaurant & Souvenir, Food Court consisting 10 stalls
+                                    are available. Apart from that a beautiful Lake for boating, beautiful garden,
+                                    compound wall etc. have been made available.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Export Promotion Industrial Park <span>Bodhjungnagar</span><span>Rs.10.00
+                                        crores</span></h4>
+                                <p>
+                                    The project envisages creation of infrastructure facilities for export oriented
+                                    commodities which is near Agartala town in the West Tripura District. The total area
+                                    of the project is 123.00 acres of land. High standard of infrastructural facilities
+                                    is provided for setting up of export oriented product in this park.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Growth Centre<span>Rs.15.00 crore</span></h4>
+                                <p>
+                                    This project has been set up for providing Industrial infrastructure for the growth
+                                    of various Industries. The total area of the project is 242 acres of land where
+                                    various Industries infrastructure have been developed such as land development,
+                                    road, water supply, Gas, Fire brigade House & electricity etc. As many as 12
+                                    Industrial sheds have been set up.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Rubber Park <span>Bodhjungnagar</span><span>Rs.23.00 crores</span></h4>
+                                <p>
+                                    This project site is about 12 KM away from Agartala town and from Airport is 22 KM.
+                                    30 acres of land utilized for establishing industrial unit. Infrastructural
+                                    facilities such as road, Administrative Building, Laboratory, Ware House, Water
+                                    Supply dedicated, Power supply, amenity building etc. Nos. of entrepreneurs has set
+                                    up various types of rubber based product & high quality product of rubber thread
+                                    etc.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Bamboo Park<span>Rs.29.35 crores</span></h4>
+                                <p>
+                                    135 acres of land has been developed for establishing Bamboo Park. 14 nos. sheds,
+                                    roads, water supply, electricity etc. have been provided. A good nos. of
+                                    entrepreneurs established factory out of which one big industry has been set up for
+                                    producting Bamboo flooring, Bamboo Laminated board, Furniture made of laminated
+                                    bamboo & round bamboo, partition wall, Home design materials which is very
+                                    attractive.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Food Park<span>Rs.7.07 crores</span></h4>
+                                <p>
+                                    On concept, average track record in food grain production has been started looking
+                                    into the possibilities of developing the food commodities and vegetable trade. In
+                                    Tripura, Banana, Pineapple, Lemon & other citrus etc. and various vegetables has
+                                    been producing enough. In this project determining of food grain is going on. One
+                                    Cold Storage, Packaging Unit, Water Supply, Electricity, Road were also established.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Food Laboratory<span>Rs.1.40 crores</span></h4>
+                                <p>
+                                    One food laboratory has been established in the Food Park. NABL permission was also
+                                    obtained from GOI. Now laboratory is running in full swing.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>I.T. Park<span>Rs.50.00 crores</span></h4>
+                                <p>
+                                    This building is G + 6 and very sophisticated one Green building having underground
+                                    park, 2 nos. lifts, Central AC, Fire fighting system, Fire alarm, public address
+                                    system, Access Control, CC TV’s, VESDA, H.V.A.C., Fire Suppression system, Water
+                                    leakage detection system, Building Management System. This building is under the
+                                    control of DIT, Indranagar.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="my-table full-per">
+                <h2><span>Ongoing Projects</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4>Up-gradation of Bodhjungnagar Industrial Area<span>Tripura (Modified Industrial
+                                        Infrastructure Up-gradation Scheme) (MIIUS)</span> <span>Rs.55.38 crores</span>
+                                </h4>
+                                <p>
+                                    The Bodhjungnagar Industrial Complex has been developed adjacent to the State
+                                    Capital Agartala on about 535.73 acres of land with all infrastructure facilities
+                                    like Road, Power, Water, Pipeline of a natural Gas line, AFC etc. About 90% of land
+                                    has been allotted to Industrialist from all over India, especially Delhi,
+                                    Bangladesh, Kolkata, Guwahati etc. Now the area has been proposed to Up-gradation,
+                                    Physical Infrastructure Industry, Road connectivity, Power Development, Social
+                                    Infrastructure, purified Water Supply, Common Utility facilities, Women Hostel etc.
+                                    for healthy environmental Growth of Industrial Complex.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Up-gradation of R.K. Nagar Industrial Area<span>Tripura (Modified Industrial
+                                        Infrastructure Up-gradation Scheme) (MIIUS)</span> <span>Rs.52.25 crores</span>
+                                </h4>
+                                <p>
+                                    The objective of the project is to establish and up-grade the Common Industrial
+                                    Infrastructure facilities at R. K. Nagar at about 226.16 acres of land which is to
+                                    be developed into a national level industrial centre providing all modern amenities
+                                    for the growth of Industries the State of Tripura making a Gateway to North East for
+                                    transshipment to Bangladesh through Chittagong port. This industrial area is
+                                    prospective of domestic industry. Bamboo Park project is also very adjacent to this
+                                    project where Bamboo processing, oil & gas (IOCL), Textile Sectors which are
+                                    considered with high Growth potential in Tripura.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Closed Exhibition Centre at Hapania<span>Rs.55.87 crores</span></h4>
+                                <p>
+                                    An exhibition centre has created an important link in the chain of economic growth.
+                                    The proposed exhibition centre having a well resolved architectural and
+                                    administrative programme could be positioned to provide a firm platform. The
+                                    exhibition centre could facilitate the people culture to be linked sensitivity to a
+                                    correct business approach and create a stage for dynamic growth in the right
+                                    direction. In this exhibition centre, a big exhibition hall is air conditioned
+                                    exhibition ground, Auditorium business/ convention centre, VIP launge, parking
+                                    place, Rest house, Restaurant etc. This facility typically offers sufficient floor
+                                    area to accommodate several thousand attendants.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Land Custom Centre<span>Manughat, Kailashahar, Unokoti District</span>
+                                    <span>Rs.12.62 crores</span>
+                                </h4>
+                                <p>
+                                    Manughat Land Custom Station presently handling cargo and passenger both of the
+                                    country Bangladesh & India as well. Bangladesh land is near to Moulabi Bazar of
+                                    Sylect district Bangladesh. This is very important LCS, now up-gradation is very
+                                    essential considering Import & Export promoting business. Land is at zero line both
+                                    of Bangladesh & India. Export & Import business of Food Product, Cement, stones etc.
+                                    are of major work.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Integrated Infrastructure Development Centre<span>Sarasima</span> <span>Rs.10.823
+                                        crores</span></h4>
+                                <p>
+                                    Project is very nearly Railway Station and well connected with Agartala Capital
+                                    town. IIDC which would provide a positive thrust towards Industrial Development in
+                                    the area. The land is covered with boundary wall. Infrastructure facilities like
+                                    road, water supply, power connection, Drainage etc. have been developed. This area
+                                    is feasible for good industrial aspect as Bangladesh & port is very near, Railway
+                                    connectivity also indicates positive side.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Up-gradation of Badharghat <span>Rs.8.274 crores</span></h4>
+                                <p>
+                                    Badharghat is situated well within the city of Agartala. The site has excellent for
+                                    air and rail connectivity. Existing industries are running well. After development
+                                    Nos. of land plots are available for establishing industry etc. The land area is
+                                    covered with boundary wall, 3 gates are constructed, roads, water supply, electric
+                                    supply, gas line etc. have been established.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer Slider  section  ------------------------------------------->
+
+    <section>
+        <div class="footer-slider-sec">
+            <div class="full-container">
+                <div class="footer-slider">
+                    <div class="slide-container swiper">
+                        <div class="slide-content-filter">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://pmcares.gov.in/en/" target="_blank">
+                                                <img src="logo/Image 8.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.mygov.in/" target="_blank">
+                                                <img src="logo/Image 4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.india.gov.in/" target="_blank">
+                                                <img src="logo/Image 5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://data.gov.in/" target="_blank">
+                                                <img src="logo/Image 6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 7.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.g20.org/en/" target="_blank">
+                                                <img src="logo/g20-logo.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer  section  ------------------------------------------->
+
+    <footer>
+        <div class="full-container">
+            <div class="footer-top">
+                <div class="footer-top-box">
+                    <div class="foot-logo-social">
+                        <a href="index.html"><img src="logo/logo-white.png" alt=""></a>
+                        <div class="foot-social">
+                            <a href="#"><img src="icons/fb-white.png" alt=""></a>
+                            <a href="#"><img src="icons/twitter-white.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="foot-top-con">
+                        <h2>TIDC</h2>
+                        <h3>Head Office Address</h3>
+                        <h4>Tripura Industrial Development Corporation Limited </h4>
+                        <p>(A Government of Tripura Undertaking) <br>SHILPA NIGAM BHAWAN, NEAR GINGER HOTEL, KHEJUR
+                            BAGAN <br>P.O: KUNJABAN, AGARTALA, WEST TRIPURA, INDIA, PIN: 799006</p>
+                        <p class="foot-top-con-phone">Phone : - 0381-2416617, 2416446, 2416373</p>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="https://tripura.gov.in/">
+                            <li>Tripura.gov.in</li>
+                        </a>
+                        <a href="https://industries.tripura.gov.in/">
+                            <li>Department of Industry & Commerce</li>
+                        </a>
+                        <a href="who-is-who.html">
+                            <li>Who is Who</li>
+                        </a>
+                        <a href="documents.html#notification">
+                            <li>Notifications</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#tender">
+                            <li>Tenders and E-tenders</li>
+                        </a>
+                        <a href="#">
+                            <li>Investment Facilitations</li>
+                        </a>
+                        <a href="help.html">
+                            <li>Help</li>
+                        </a>
+                        <a href="sitemap.html">
+                            <li>Sitemap</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#recruitments">
+                            <li>Recruitment</li>
+                        </a>
+                        <a href="archives.html">
+                            <li>Archive</li>
+                        </a>
+                        <a href="disclaimer.html">
+                            <li>Disclaimer</li>
+                        </a>
+                        <a href="copyright-policy.html">
+                            <li>Copyright Policy</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="foot-bottom-left">
+                    <button onclick="searchfunction()">Search</button>
+                </div>
+                <div class="foot-bottom-right">
+                    <p>You are visitor no: <span>236917</span> | Last updated on: <span>01-Jul-2023</span> | <a
+                            href="#">CMS
+                            Login</a></p>
+                    <h6>© 2023 TRIPURA INDUSTRIAL DEVELOPMENT CORPORATION LIMITED. Developed & Hosted by Directorate of
+                        IT, Govt. of Tripura.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+</body>
+
+</html>

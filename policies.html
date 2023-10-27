@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policies | TIDC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- fav icon CSS -->
+    <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+
+
+    <script src="https://kit.fontawesome.com/4ebe883bff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="search-form" action="" id="search-form">
+        <form>
+            <i class="fa-solid fa-magnifying-glass manuicon text-search-icon"></i>
+            <input type="text" placeholder="Search here.......">
+            <input type="submit" value="Submit" onclick="searchfunctionclose()">
+            <i onclick="searchfunctionclose()" class="fa-solid fa-xmark"></i>
+        </form>
+    </div>
+    <header>
+        <div class="top-header" id="top">
+            <div class="full-container">
+                <div class="top-header-grid">
+                    <div class="top-left">
+                        <a href="screen-reader-access.html">Screen Reader Access</a>
+                        <button onclick="searchfunction()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                    </div>
+                    <div class="top-right">
+                        <div class="skip-to-main">
+                            <a href="#main-content">Skip to main content</a>
+                        </div>
+                        <div class="text-size">
+                            <button onclick="increase()">A <span>+</span></button>
+                            <button onclick="initial()">A</button>
+                            <button onclick="decrease()">A <span>-</span></button>
+                        </div>
+                        <div class="language-trn">
+                            <div id="google_translate_element"></div>
+                        </div>
+                        <div class="social-head">
+                            <a href="https://www.facebook.com/tidcltd" target="_blank"><img src="icons/fb.png"
+                                    alt=""></a>
+                            <a href="#"><img src="icons/twitter.png" alt=""></a>
+                        </div>
+                        <div class="switch-color">
+                            <button class="btn-white" onclick="lightFunction()"><i
+                                    class="fa-solid fa-bars"></i></button>
+                            <button class="btn-grey" onclick="grayFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-blue" onclick="blueFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-black" onclick="darkFunction()"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="full-container">
+                <div class="main-header-grid">
+                    <a href="index.html">
+                        <div class="logo">
+                            <div class="logo-icon">
+                                <img src="logo/logo.png" alt="">
+                            </div>
+                            <div class="logo-text">
+                                <h1>Tripura Industrial Development Corporation Ltd.</h1>
+                                <h2>Department of Industries & Commerce</h2>
+                                <h3>Government of Tripura Undertaking, ISO 9001 : 2015 Certified Company</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header-right-logo">
+                        <a href="https://www.g20.org/en/" target="_blank">
+                            <img src="logo/g20-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="navbar" id="navbar">
+            <div class="full-container">
+                <ul class="main-menu">
+                    <a href="index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn">About Us <span><i class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="mission-vision.html">Mission & Vision</a>
+                            <a href="joint-venture.html">Joint Venture</a>
+                            <a href="bord-of-directors.html">Board of Directors</a>
+                            <a href="other-links.html">Other Links</a>
+                            <a href="faqs.html">FAQs</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="new-projects.html">Projects</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="new-projects.html#complete_project">Complete Projects</a>
+                            <a href="new-projects.html#ongoing_project">Ongoing Projects</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="services.html">Services</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="services.html#financial-ass">Financial Assistance</a>
+                            <a href="services.html#food-testing">Food Testing Laboratory</a>
+                            <a href="services.html#infra-dev">Infrastructure Development</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="investor.html">Investors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="all-events.html">Our Events</a>
+                            <a href="investor.html#ind-pol-inc">Industrial policies and Incentives</a>
+                            <a href="investor.html#land-bank">Land Bank</a>
+                            <a href="investor.html#land-allot"> Land Allotment </a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="industrial-infrastructure.html">Industrial Infr </a><span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="industrial-infrastructure.html#allot-rate">Allotment </a>
+                            <a href="industrial-infrastructure.html#facilities">Facilities</a>
+                            <a href="industrial-infrastructure.html#engg-cell">Engineering Cell</a>
+                            <a href="industrial-infrastructure.html#inds-park">Industrial Park </a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="sectors.html">Sectors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="sectors.html#potential-sec">Potential sectors</a>
+                            <a href="sectors.html#thrust-sec">Thrust sectors</a>
+                        </div>
+                    </li>
+                    <a href="gallery.html">
+                        <li>Galleries</li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="policies.html">Policies</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="policies.html#trp-ind-policy">Tripura Industrial Policy</a>
+                            <a href="policies.html#neeip">NEEIP- 2007 (Revised)</a>
+                            <a href="policies.html#tiipis">Tripura Industrial Investment Promotion Incentive
+                                Scheme,2022</a>
+                            <a href="policies.html#swp">Sector Wise Policy</a>
+
+                            <a href="policies.html#land-allot-policy">Land Allotment Policy</a>
+                        </div>
+
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="documents.html">Documents</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="documents.html#achievements">Achievements</a>
+                            <a href="documents.html#notification">Notification</a>
+                            <a href="documents.html#rti">RTI</a>
+                            <a href="documents.html#recruitments">Recruitments</a>
+                            <a href="documents.html#tender">Tender</a>
+                        </div>
+                    </li>
+                    <a href="who-is-who.html">
+                        <li>Who is who</li>
+                    </a>
+                    <a href="contact-us.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-----------------------------------   page Title  section  ------------------------------------------->
+    <section>
+        <div class="page-title-sec">
+            <div class="page-title">
+                <h1>Policies</h1>
+                <p><a href="index.html">Home</a> <span><i class="fa-solid fa-angles-right"></i></span>Policies</p>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------------   page content  section  ------------------------------------------->
+    <section class="table-page-sec" id="main-content">
+        <div class="full-container">
+
+            <div class="my-table" id="trp-ind-policy">
+                <h2><span>Tripura Industrial Policy</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <h6>INDUSTRIAL POLICY OF GOVERNMENT OF TRIPURA</h6>
+                                <p>
+                                    INDUSTRIAL POLICY OF GOVERNMENT OF TRIPURA
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="tripura-industrial-policy.html"><button>View</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="my-table" id="land-allot-policy">
+                <h2><span>Land Allotment Policy</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <p>
+                                    Land Allotment Policy of TIDC Ltd
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="pdf/policies/TIDCL Land Allotment Policy 2023.pdf"
+                                    target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="my-table" id="tiipis">
+                <h2><span>TIIPIS</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    Tripura Industrial Investment Promotion Incentives Scheme, 2022
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="pdf/policies/TIIPS-2022.pdf" target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Tripura Industrial Investment Promotion Incentives Scheme, 2017
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="pdf/policies/TIIPIS-2017.pdf" target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="my-table" id="neeip">
+                <h2><span>NEIPP</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <p>North East Industrial and Investment promotion policy
+                                    (NEIPP),2007 (Revised).</p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="pdf/policies/NEEIP-2007Revised.pdf" target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="my-table" id="swp">
+                <h2><span>Sector Wise policy</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <p>
+                                    Sector wise industrial policy for Tripura
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="policies_new.html" target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- <div class="my-table" id="ots-policy">
+                <h2><span>One Time Settlement (OTS) Policy</span></h2>
+                <hr>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <p>
+                                    One Time Settlement (OTS) Policy of TIDC Ltd.
+                                </p>
+                            </td>
+                            <td class="view-btn-td">
+                                <a href="pdf/policies/One-Time-Settlement-Policy-of-TIDC-LTD.pdf"
+                                    target="_blank"><button>View</button></a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div> -->
+
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer Slider  section  ------------------------------------------->
+
+    <section>
+        <div class="footer-slider-sec">
+            <div class="full-container">
+                <div class="footer-slider">
+                    <div class="slide-container swiper">
+                        <div class="slide-content-filter">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://pmcares.gov.in/en/" target="_blank">
+                                                <img src="logo/Image 8.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.mygov.in/" target="_blank">
+                                                <img src="logo/Image 4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.india.gov.in/" target="_blank">
+                                                <img src="logo/Image 5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://data.gov.in/" target="_blank">
+                                                <img src="logo/Image 6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 7.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.g20.org/en/" target="_blank">
+                                                <img src="logo/g20-logo.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer  section  ------------------------------------------->
+
+    <footer>
+        <div class="full-container">
+            <div class="footer-top">
+                <div class="footer-top-box">
+                    <div class="foot-logo-social">
+                        <a href="index.html"><img src="logo/logo-white.png" alt=""></a>
+                        <div class="foot-social">
+                            <a href="#"><img src="icons/fb-white.png" alt=""></a>
+                            <a href="#"><img src="icons/twitter-white.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="foot-top-con">
+                        <h2>TIDC</h2>
+                        <h3>Head Office Address</h3>
+                        <h4>Tripura Industrial Development Corporation Limited </h4>
+                        <p>(A Government of Tripura Undertaking) <br>SHILPA NIGAM BHAWAN, NEAR GINGER HOTEL, KHEJUR
+                            BAGAN <br>P.O: KUNJABAN, AGARTALA, WEST TRIPURA, INDIA, PIN: 799006</p>
+                        <p class="foot-top-con-phone">Phone : - 0381-2416617, 2416446, 2416373</p>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="https://tripura.gov.in/">
+                            <li>Tripura.gov.in</li>
+                        </a>
+                        <a href="https://industries.tripura.gov.in/">
+                            <li>Department of Industry & Commerce</li>
+                        </a>
+                        <a href="who-is-who.html">
+                            <li>Who is Who</li>
+                        </a>
+                        <a href="documents.html#notification">
+                            <li>Notifications</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#tender">
+                            <li>Tenders and E-tenders</li>
+                        </a>
+                        <a href="#">
+                            <li>Investment Facilitations</li>
+                        </a>
+                        <a href="help.html">
+                            <li>Help</li>
+                        </a>
+                        <a href="sitemap.html">
+                            <li>Sitemap</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#recruitments">
+                            <li>Recruitment</li>
+                        </a>
+                        <a href="archives.html">
+                            <li>Archive</li>
+                        </a>
+                        <a href="disclaimer.html">
+                            <li>Disclaimer</li>
+                        </a>
+                        <a href="copyright-policy.html">
+                            <li>Copyright Policy</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="foot-bottom-left">
+                    <button onclick="searchfunction()">Search</button>
+                </div>
+                <div class="foot-bottom-right">
+                    <p>You are visitor no: <span>236917</span> | Last updated on: <span>01-Jul-2023</span> | <a
+                            href="#">CMS
+                            Login</a></p>
+                    <h6>© 2023 TRIPURA INDUSTRIAL DEVELOPMENT CORPORATION LIMITED. Developed & Hosted by Directorate of
+                        IT, Govt. of Tripura.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+</body>
+
+</html>

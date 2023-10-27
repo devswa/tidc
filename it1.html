@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Policies | TIDC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- fav icon CSS -->
+    <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+
+
+    <script src="https://kit.fontawesome.com/4ebe883bff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="search-form" action="" id="search-form">
+        <form>
+            <i class="fa-solid fa-magnifying-glass manuicon text-search-icon"></i>
+            <input type="text" placeholder="Search here.......">
+            <input type="submit" value="Submit" onclick="searchfunctionclose()">
+            <i onclick="searchfunctionclose()" class="fa-solid fa-xmark"></i>
+        </form>
+    </div>
+
+    <div class="screen-reader-mobile">
+        <div class="header">
+            <div class="item item-1" onclick="decrease()">
+                <p>
+                    -A
+                </p>
+            </div>
+            <div class="item item-2" onclick="initial()">
+                <p>
+                    A
+                </p>
+            </div>
+            <div class="item item-3" onclick="increase()">
+                <p>
+                    +A
+                </p>
+            </div>
+        </div>
+        <div class="body">
+            <ul>
+                <li class="item">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="text">
+                        <p>Search</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="text">
+                        <p>Select Language</p>
+                    </div>
+                    <div class="drop">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </li>
+                <li class="item">
+                    <button class="btn-white" onclick="lightFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-grey" onclick="grayFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-blue" onclick="blueFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn-black" onclick="darkFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="text">
+                        <p>Screen Reader Accress</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="item br">
+                <div class="icons">
+                    <div class="img fb">
+                        <img src="icons/fb.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="icons/twitter.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item">Skip</div>
+        </div>
+    </div>
+    <div class="mySidePanel">
+        <div class="nav">
+            <div class="img1"></div>
+            <div class="img" onclick="closePanel()">
+                <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+            </div>
+        </div>
+        <div class="body">
+            <div class="heading">
+                <p>MENU</p>
+            </div>
+            <div class="sub-head">
+                <a href="index.html">
+                    <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                </a>
+            </div>
+            <ul>
+                <li onclick="openSec1()">
+                    <div class="text">
+                        <p>About Us</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec1">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec1()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>About Us</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="mission-vision.html">Mission & Vision</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="joint-venture.html">Joint Venture</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="bord-of-directors.html">Board of Directors</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="other-links.html">Other Links</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="faqs.html">FAQs</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec1()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec2()">
+                    <div class="text">
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec2">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec2()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Projects</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="new-projects.html#complete_project">Complete Projects</a>
+
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="new-projects.html#ongoing_project">Ongoing Projects</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec2()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec3()">
+                    <div class="text">
+                        <p>Services</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec3">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec3()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Services</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#financial-ass">Financial Assistance</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#food-testing">Food Testing Laboratory</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="services.html#infra-dev">Infrastructure Development</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec3()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec4()">
+                    <div class="text">
+                        <p>Investors</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec4">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec4()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <a href="investor.html">Investors</a>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="all-events.html">Our Events</a>
+
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#ind-pol-inc">Industrial policies and Incentives</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#land-bank">Land Bank</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="investor.html#investor-query"> Investor Query </a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec4()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec5()">
+                    <div class="text">
+                        <p>Industrial Infrastructure</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec5">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec5()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Industrial Infrastructure</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#allot-rate">Allotment</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#facilities">Facilities</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#engg-cell">Engineering Cell</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="industrial-infrastructure.html#inds-park">Industrial Park </a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec5()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec6()">
+                    <div class="text">
+                        <p>Sectors</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec6">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec6()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Sectors</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="sectors.html#potential-sec">Potential sectors</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="sectors.html#thrust-sec">Thrust sectors</a>
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec6()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div class="text">
+                        <a href="gallery.html">
+                            Galleries
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+
+                <li onclick="openSec7()">
+                    <div class="text">
+                        <p>Policies</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec7">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec7()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Policies</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#trp-ind-policy">Tripura Industrial Policy</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#neeip">NEEIP- 2007 (Revised)</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#tiipis">Tripura Industrial Investment Promotion
+                                                Scheme,2017</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#ots-policy">One Time Settlement for loan</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="policies_new.html#investor-query-policy">Investor Query Policy</a>
+                                        </div>
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec7()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li onclick="openSec8()">
+                    <div class="text">
+                        <p>Documents</p>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <div class="openSec" id="openSec8">
+                    <div class="nav">
+                        <div class="img1"></div>
+                        <div class="img" onclick="closePanel()">
+                            <img src="icons/c35a6ef2b17a5065293af5ffb343f869.png" alt="">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="heading">
+                            <p>MENU</p>
+                        </div>
+                        <div class="sub-head" onclick="closeSec8()">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house-chimney"></i>&nbsp;<p>HOME</p>
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="text">
+                                    <p>Documents</p>
+                                </div>
+
+                                <div class="img">
+                                    <img src="icons/Path 1007.png" alt="">
+                                </div>
+                            </li>
+                            <div class="container-sm">
+                                <ul>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#achievements">Achievements</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#notification">Notification</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#rti">RTI</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#recruitments">Recruitments</a>
+
+                                        </div>
+
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text">
+                                            <a href="documents.html#tender">Tender</a>
+                                        </div>
+                                        <div class="img">
+                                            <img src="icons/Path 1007.png" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer" onclick="closeSec8()">
+                        <div class="img">
+                            <img src="icons/Path 1018.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>BACK</p>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div class="text">
+                        <a href="who-is-who.html">
+                            Who is who
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <a href="contact-us.html">
+                            Contact Us
+                        </a>
+                    </div>
+
+                    <div class="img">
+                        <img src="icons/Path 1007.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="screen-reader-mobile-bg" onclick="show_screen_reader()"></div>
+    <header>
+        <div class="top-header" id="top">
+            <div class="full-container">
+                <div class="top-header-grid">
+                    <div class="top-left">
+                        <a href="screen-reader-access.html">Screen Reader Access</a>
+                        <button onclick="searchfunction()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                    </div>
+
+                    <div class="top-right">
+                        <div class="skip-to-main">
+                            <a href="#main-content">Skip to main content</a>
+                        </div>
+                        <div class="text-size">
+                            <button onclick="increase()">A <span>+</span></button>
+                            <button onclick="initial()">A</button>
+                            <button onclick="decrease()">A <span>-</span></button>
+                        </div>
+                        <div class="language-trn">
+                            <div id="google_translate_element"></div>
+                        </div>
+                        <div class="social-head">
+                            <a href="https://www.facebook.com/tidcltd" target="_blank"><img src="icons/fb.png"
+                                    alt=""></a>
+                            <a href="#"><img src="icons/twitter.png" alt=""></a>
+                        </div>
+                        <div class="switch-color">
+                            <button class="btn-white" onclick="lightFunction()"><i
+                                    class="fa-solid fa-bars"></i></button>
+                            <button class="btn-grey" onclick="grayFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-blue" onclick="blueFunction()"><i class="fa-solid fa-bars"></i></button>
+                            <button class="btn-black" onclick="darkFunction()"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header" id="main-header">
+            <div class="full-container">
+                <div class="main-header-grid">
+                    <div class="logo">
+                        <a href="index.html">
+                            <div class="logo-icon">
+                                <img src="logo/logo.png" alt="">
+                            </div>
+                            <div class="logo-text">
+                                <h1>Tripura Industrial Development Corporation Ltd.</h1>
+                                <h2>Department of Industries & Commerce</h2>
+                                <h3>Government of Tripura Undertaking, ISO 9001 : 2015 Certified Company</h3>
+                            </div>
+                        </a>
+                        <div class="logo-text-mobile">
+                            <div class="text">
+                                <h1>TIDC</h1>
+                                <div>
+                                    <p>Department of </p>
+                                    <p>Industries & Commerce</p>
+                                </div>
+                            </div>
+                            <div class="sidebar-icon-mobile">
+                                <div class="icon" onclick="show_screen_reader()">
+                                    <img src="icons/a.png" alt="">
+                                </div>
+                                <div class="img" onclick="mySidePanel()">
+                                    <img src="icons/Group 181.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-right-logo">
+                        <a href="https://www.g20.org/en/" target="_blank">
+                            <img src="logo/g20-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="navbar" id="navbar">
+            <div class="full-container">
+                <ul class="main-menu">
+                    <a href="index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn">About Us <span><i class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="mission-vision.html">Mission & Vision</a>
+                            <a href="joint-venture.html">Joint Venture</a>
+                            <a href="bord-of-directors.html">Board of Directors</a>
+                            <a href="other-links.html">Other Links</a>
+                            <a href="faqs.html">FAQs</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="new-projects.html">Projects</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="new-projects.html#complete_project">Complete Projects</a>
+                            <a href="new-projects.html#ongoing_project">Ongoing Projects</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="services.html">Services</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="services.html#financial-ass">Financial Assistance</a>
+                            <a href="services.html#food-testing">Food Testing Laboratory</a>
+                            <a href="services.html#infra-dev">Infrastructure Development</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="investor.html">Investors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="all-events.html">Our Events</a>
+                            <a href="investor.html#ind-pol-inc">Industrial policies and Incentives</a>
+                            <a href="investor.html#land-bank">Land Bank</a>
+                            <a href="investor.html#investor-query"> Investor Query </a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="industrial-infrastructure.html">Industrial Infr </a><span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="industrial-infrastructure.html#allot-rate">Allotment </a>
+                            <a href="industrial-infrastructure.html#facilities">Facilities</a>
+                            <a href="industrial-infrastructure.html#engg-cell">Engineering Cell</a>
+                            <a href="industrial-infrastructure.html#inds-park">Industrial Park </a>
+
+                        </div>
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="sectors.html">Sectors</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="sectors.html#potential-sec">Potential sectors</a>
+                            <a href="sectors.html#thrust-sec">Thrust sectors</a>
+                        </div>
+                    </li>
+                    <a href="gallery.html">
+                        <li>Galleries</li>
+                    </a>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="policies.html">Policies</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="policies.html#trp-ind-policy">Tripura Industrial Policy</a>
+                            <a href="policies.html#neeip">NEEIP- 2007 (Revised)</a>
+                            <a href="policies.html#tiipis">Tripura Industrial Investment Promotion Incentive
+                                Scheme,2022</a>
+                            <a href="policies.html#swp">Sector Wise Policy</a>
+
+                            <a href="policies.html#land-allot-policy">Land Allotment Policy</a>
+                        </div>
+
+                    </li>
+                    <li class="dropdown">
+
+                        <button class="dropbtn"><a href="documents.html">Documents</a> <span><i
+                                    class="fa-solid fa-angle-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="documents.html#achievements">Achievements</a>
+                            <a href="documents.html#notification">Notification</a>
+                            <a href="documents.html#rti">RTI</a>
+                            <a href="documents.html#recruitments">Recruitments</a>
+                            <a href="documents.html#tender">Tender</a>
+                        </div>
+                    </li>
+                    <a href="who-is-who.html">
+                        <li>Who is who</li>
+                    </a>
+                    <a href="contact-us.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-----------------------------------   page Title  section  ------------------------------------------->
+    <section>
+        <div class="page-title-sec">
+            <div class="page-title">
+                <h1>Policies</h1>
+                <p>
+                    <a href="index.html">Home</a> <span><i class="fa-solid fa-angles-right"></i></span>
+                    <a href="policies_new.html">Policies</a><span><i class="fa-solid fa-angles-right"></i></span>Tripura
+                    IT / iTeS Policy-2022
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------------   page content  section  ------------------------------------------->
+    <section class="table-page-sec" id="main-content">
+        <div class="full-container">
+
+            <div class="my-table" id="allot-rate">
+                <h2><span>iTeS Policy-2022 </span></h2>
+                <hr>
+
+            </div>
+            <div class="my-grid grid-park my-grid-policy">
+                <div class="grid-right mr">
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Directorate </strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>Directorate of Information & Technology</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Capital Investment Subsidy</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>Reimbursment of Capital investment upto Rs. 125 lakhs.</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Floor space & plug and play seat rental</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>Floor rental charges paid upto 12 Lakh/Year/enterprise . Reimbursment of "plug and play
+                                Seat rental in STP / IT park at
+                                50% of rent paid /Visit.</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Procurement Preferences</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>15% price preference in tender process for supplying upto 50 % of tender quantity.</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Industrial Promotion Subsidy</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>100% SGST reimbursment</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Power Charges</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>Rs. 5/unit for initial 5 years</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="grid-right">
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Partial Reimbursement of Intrest on Working Loans</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>Reimbursment of partial Intrest paid to banks/ FI upto 12 Lakh/Year/Enterprise</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Reimbursement of Standard certification</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>100 % cost of getting Certificates</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Employment cost Subsidy</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>100 % Reimbursment of the contribution made towards EPF and ESI for 5 Years</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Exemption of earnest money and BID Security deposites</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>100% Reimbursment to Local Manufacture & tenders floated by state government Agencies for
+                                procuring goods</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>Credit Gurantee Trust Fund</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>100 % reimbursment of one time gurantee fee and service fee for CGTMSE</p>
+                        </div>
+                    </div>
+                    <div class="my-flex">
+                        <div class="my-flex-left">
+                            <p><strong>BW cost Subsidy</strong></p>
+                        </div>
+                        <div class="my-flex-right">
+                            <p>5 Lakhs/Annum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-page-content">
+                <p>
+                    <strong>Elgibility</strong>
+                </p>
+                <ul>
+                    <li> first day of April 2022, but before 31st March, 2027, for any IT/ITeS Enterprise registered
+                        under appropriate Company law/ Act enacted by Govt. of India.</li>
+                    <li> unit has gone into commercial production/ services.</li>
+                    <li>Should not avail any other scheme / Incentive from GOI/ State Government.</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer Slider  section  ------------------------------------------->
+
+    <section>
+        <div class="footer-slider-sec">
+            <div class="full-container">
+                <div class="footer-slider">
+                    <div class="slide-container swiper">
+                        <div class="slide-content-filter">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://pmcares.gov.in/en/" target="_blank">
+                                                <img src="logo/Image 8.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.mygov.in/" target="_blank">
+                                                <img src="logo/Image 4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.india.gov.in/" target="_blank">
+                                                <img src="logo/Image 5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://data.gov.in/" target="_blank">
+                                                <img src="logo/Image 6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://tripura.gov.in/" target="_blank">
+                                                <img src="logo/Image 7.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card swiper-slide">
+                                    <div class="card-con">
+                                        <div class="foot-logo-container">
+                                            <a href="https://www.g20.org/en/" target="_blank">
+                                                <img src="logo/g20-logo.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                        <div class="swiper-button-prev swiper-navBtn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------------   Footer  section  ------------------------------------------->
+
+    <footer>
+        <div class="full-container">
+            <div class="footer-top">
+                <div class="footer-top-box">
+                    <div class="foot-logo-social">
+                        <a href="index.html"><img src="logo/logo-white.png" alt=""></a>
+                        <div class="foot-social">
+                            <a href="#"><img src="icons/fb-white.png" alt=""></a>
+                            <a href="#"><img src="icons/twitter-white.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="foot-top-con">
+                        <h2>TIDC</h2>
+                        <h3>Head Office Address</h3>
+                        <h4>Tripura Industrial Development Corporation Limited </h4>
+                        <p>(A Government of Tripura Undertaking) <br>SHILPA NIGAM BHAWAN, NEAR GINGER HOTEL, KHEJUR
+                            BAGAN <br>P.O: KUNJABAN, AGARTALA, WEST TRIPURA, INDIA, PIN: 799006</p>
+                        <p class="foot-top-con-phone">Phone : - 0381-2416617, 2416446, 2416373</p>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="https://tripura.gov.in/">
+                            <li>Tripura.gov.in</li>
+                        </a>
+                        <a href="https://industries.tripura.gov.in/">
+                            <li>Department of Industry & Commerce</li>
+                        </a>
+                        <a href="who-is-who.html">
+                            <li>Who is Who</li>
+                        </a>
+                        <a href="documents.html#notification">
+                            <li>Notifications</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#tender">
+                            <li>Tenders and E-tenders</li>
+                        </a>
+                        <a href="#">
+                            <li>Investment Facilitations</li>
+                        </a>
+                        <a href="help.html">
+                            <li>Help</li>
+                        </a>
+                        <a href="sitemap.html">
+                            <li>Sitemap</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <a href="documents.html#recruitments">
+                            <li>Recruitment</li>
+                        </a>
+                        <a href="archives.html">
+                            <li>Archive</li>
+                        </a>
+                        <a href="disclaimer.html">
+                            <li>Disclaimer</li>
+                        </a>
+                        <a href="copyright-policy.html">
+                            <li>Copyright Policy</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="foot-bottom-left">
+                    <button onclick="searchfunction()">Search</button>
+                </div>
+                <div class="foot-bottom-right">
+                    <p>You are visitor no: <span>236917</span> | Last updated on: <span>01-Jul-2023</span> | <a
+                            href="#">CMS
+                            Login</a></p>
+                    <h6>© 2023 TRIPURA INDUSTRIAL DEVELOPMENT CORPORATION LIMITED. Developed & Hosted by Directorate of
+                        IT, Govt. of Tripura.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+</body>
+
+</html>
